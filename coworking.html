@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace Coworking Premium | Union des Affaires</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Espace de coworking haut de gamme à Casablanca pour entrepreneurs et professionnels">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://union-affaires.ma/coworking">
+    <meta property="og:title" content="Espace Coworking Premium | Union des Affaires">
+    <meta property="og:description" content="Travaillez dans un environnement professionnel inspirant au cœur de Casablanca">
+    <meta property="og:image" content="https://union-affaires.ma/img/coworking-og.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://union-affaires.ma/coworking">
+    <meta property="twitter:title" content="Espace Coworking Premium | Union des Affaires">
+    <meta property="twitter:description" content="Travaillez dans un environnement professionnel inspirant au cœur de Casablanca">
+    <meta property="twitter:image" content="https://union-affaires.ma/img/coworking-og.jpg">
+</head>
+<body>
+    <!-- En-tête -->
+    <header class="header-sticky">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html">
+                    <img src="Logo princip.png" alt="Union des Affaires" class="logo-img">
+                </a>
+
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <nav class="nav-premium" id="nav-premium">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="coworking.html" class="active">Espace Co-working</a></li>
+                        <li><a href="centre-appel.html">Centre d'Appel</a></li>
+                        <li><a href="import-export.html">Import/Export</a></li>
+                        <li><a href="accompagnement.html">Accompagnement</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                    <a href="tel:+212600800747" class="btn btn-primary">
+                        <i class="fas fa-phone"></i>
+                        +212 600-800747
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Héro -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content animate-fade-in">
+                <h1 class="hero-title">Espace Co-working Premium à Casablanca</h1>
+                <p class="hero-subtitle">Travaillez dans un environnement motivant et connecté</p>
+                <div class="hero-buttons">
+                    <a href="#espaces" class="btn btn-primary">
+                        <i class="fas fa-building"></i>
+                        Découvrir nos espaces
+                    </a>
+                    <a href="#tarifs" class="btn btn-outline">
+                        <i class="fas fa-tag"></i>
+                        Voir les tarifs
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Espaces -->
+        <section id="espaces" class="espaces-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nos Espaces</h2>
+                    <p>Des solutions adaptées à tous vos besoins professionnels</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="card">
+                        <img src="IMG-20250515-WA0035.jpg" alt="Salle de Réunion Premium" class="card-image">
+                        <div class="card-content">
+                            <h3>Salle de Réunion Premium</h3>
+                            <p>Espace de réunion exclusif pour 5 à 8 personnes, idéal pour vos présentations et réunions d'équipe.</p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-check"></i> 5-8 personnes</li>
+                                <li><i class="fas fa-check"></i> Écran 4K</li>
+                                <li><i class="fas fa-check"></i> Son premium</li>
+                            </ul>
+                            <button class="btn btn-primary" onclick="openReservationModal('Salle de Réunion Premium')">
+                                <i class="fas fa-calendar-alt"></i> Réserver
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="WhatsApp Image 2025-05-09 à 18.14.39_7160c1c4.jpg" alt="Salle de Formation" class="card-image">
+                        <div class="card-content">
+                            <h3>Salle de Formation</h3>
+                            <p>Espace dédié aux formations et workshops avec équipements pédagogiques modernes.</p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-check"></i> 20-30 personnes</li>
+                                <li><i class="fas fa-check"></i> Équipements pédagogiques</li>
+                                <li><i class="fas fa-check"></i> Espace modulable</li>
+                            </ul>
+                            <button class="btn btn-primary" onclick="openReservationModal('Salle de Formation')">
+                                <i class="fas fa-calendar-alt"></i> Réserver
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="IMG-20250515-WA0052.jpg" alt="Bureau Privatif" class="card-image">
+                        <div class="card-content">
+                            <h3>Bureau Privatif</h3>
+                            <p>Espace de travail dédié avec tout le confort nécessaire pour une productivité optimale.</p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-check"></i> Bureau personnel</li>
+                                <li><i class="fas fa-check"></i> Éclairage optimal</li>
+                                <li><i class="fas fa-check"></i> Connexion dédiée</li>
+                            </ul>
+                            <button class="btn btn-primary" onclick="openReservationModal('Bureau Privatif')">
+                                <i class="fas fa-calendar-alt"></i> Réserver
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="IMG-20250515-WA0049.jpg" alt="Bureau de Travail" class="card-image">
+                        <div class="card-content">
+                            <h3>Bureau de Travail</h3>
+                            <p>Un espace de travail intime pour 1 à 3 personnes, parfait pour les petites équipes ou les entrepreneurs.</p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-check"></i> 1-3 personnes</li>
+                                <li><i class="fas fa-check"></i> Éclairage optimal</li>
+                                <li><i class="fas fa-check"></i> Connexion dédiée</li>
+                            </ul>
+                            <button class="btn btn-primary" onclick="openReservationModal('Bureau de Travail')">
+                                <i class="fas fa-calendar-alt"></i> Réserver
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="IMG-20250515-WA0026.jpg" alt="Open Space" class="card-image">
+                        <div class="card-content">
+                            <h3>Open Space</h3>
+                            <p>Espace convivial pour travailler, manger, boire un café et se détendre.</p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-check"></i> Espace détente</li>
+                                <li><i class="fas fa-check"></i> Zone café</li>
+                                <li><i class="fas fa-check"></i> Wifi gratuit</li>
+                            </ul>
+                            <button class="btn btn-primary" onclick="openReservationModal('Open Space')">
+                                <i class="fas fa-calendar-alt"></i> Réserver
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Section Tarifs -->
+    <section id="tarifs" class="tarifs-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contactez-nous</h2>
+                <p>Pour connaître nos tarifs et disponibilités, n'hésitez pas à nous contacter</p>
+            </div>
+            
+            <div class="contact-options">
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Par téléphone</h3>
+                    <p>Appelez-nous directement pour discuter de vos besoins</p>
+                    <a href="tel:+212600800747" class="btn btn-primary" onclick="window.open(this.href, '_blank'); return false;">
+                        <i class="fas fa-phone"></i>
+                        +212 600-800747
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>Via WhatsApp</h3>
+                    <p>Envoyez-nous un message pour plus d'informations</p>
+                    <a href="https://wa.me/212600800747" class="btn btn-primary" onclick="window.open(this.href, '_blank'); return false;">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Par email</h3>
+                    <p>Écrivez-nous pour toute demande de renseignements</p>
+                    <a href="mailto:contact@gmail.com" class="btn btn-primary" onclick="window.open(this.href, '_blank'); return false;">
+                        <i class="fas fa-envelope"></i>
+                        Nous écrire
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Vidéo -->
+    <section class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visite Virtuelle</h2>
+                <p>Découvrez nos espaces en vidéo</p>
+            </div>
+
+<div class="video-container">
+    <video controls poster="video-poster.jpg" width="800" height="450">
+        <source src="Design sans titre (1).mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos.
+    </video>
+</div>
+        </div>
+    </section>
+
+    <!-- Section Réservation -->
+    <section id="reservation" class="reservation-section">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="reservation-info">
+                    <h2>Réservez votre espace</h2>
+                    <p>Notre équipe est à votre disposition pour vous accompagner dans votre choix.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>+212 600-800747</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>coworking@union-affaires.ma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="Logo princip.png" alt="Union des Affaires" class="footer-logo">
+                    <p>Votre partenaire de confiance pour tous vos besoins professionnels à Casablanca.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="coworking.html">Espace Co-working</a></li>
+                        <li><a href="centre-appel.html">Centre d'Appel</a></li>
+                        <li><a href="import-export.html">Import/Export</a></li>
+                        <li><a href="accompagnement.html">Accompagnement</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Entreprise</h4>
+                    <ul>
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carrières</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Légal</h4>
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Conditions d'utilisation</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Union des Affaires. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Réservation -->
+    <div id="reservation-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Réserver un espace</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <form id="reservation-form" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="modal-name" class="form-label">Nom complet</label>
+                    <input type="text" id="modal-name" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="modal-email" class="form-label">Email</label>
+                    <input type="email" id="modal-email" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="modal-phone" class="form-label">Téléphone</label>
+                    <input type="tel" id="modal-phone" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="modal-espace" class="form-label">Type d'espace</label>
+                    <select id="modal-espace" class="form-input" required>
+                        <option value="">Sélectionnez un espace</option>
+                        <option value="salle-reunion-premium">Salle de Réunion Premium</option>
+                        <option value="bureau-prive">Bureau Privé</option>
+                        <option value="open-space">Open Space</option>
+                        <option value="salle-formation">Salle de Formation</option>
+                        <option value="Bureau-de-travail">Bureau de Travail</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="modal-date" class="form-label">Date souhaitée</label>
+                    <input type="date" id="modal-date" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="modal-message" class="form-label">Message (optionnel)</label>
+                    <textarea id="modal-message" class="form-input" rows="3"></textarea>
+                </div>
+
+                <button type="button" id="send-whatsapp" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i>
+                    Envoyer via WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+     // Fonction pour ouvrir la modal avec pré-remplissage
+function openReservationModal(espaceName) {
+    const modal = document.getElementById('reservation-modal');
+    
+    // Pré-remplir le type d'espace
+    const espaceSelect = document.getElementById('modal-espace');
+    for (let option of espaceSelect.options) {
+        if (option.text === espaceName) {
+            option.selected = true;
+            break;
+        }
+    }
+    
+    // Ouvrir la modal
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+}
+
+// Gestion de la modal
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('reservation-modal');
+    const closeBtn = modal.querySelector('.modal-close');
+    
+    // Fonction pour fermer la modal
+    function closeModal() {
+        modal.classList.remove('show');
+        document.body.style.overflow = 'auto';
+        document.getElementById('reservation-form').reset();
+    }
+    
+    // Fermer avec le bouton ×
+    closeBtn.addEventListener('click', closeModal);
+    
+    // Fermer en cliquant à l'extérieur
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+    
+    // Fermer avec la touche Escape
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && modal.classList.contains('show')) {
+            closeModal();
+        }
+    });
+    
+    // Gestion WhatsApp améliorée
+ document.getElementById('send-whatsapp').addEventListener('click', function() {
+    // Récupération des valeurs avec .value au lieu de FormData
+    const name = document.getElementById('modal-name').value.trim();
+    const email = document.getElementById('modal-email').value.trim();
+    const phone = document.getElementById('modal-phone').value.trim();
+    const espace = document.getElementById('modal-espace').value;
+    const date = document.getElementById('modal-date').value;
+    const message = document.getElementById('modal-message').value.trim();
+
+    // Validation améliorée
+    if (!name || !email || !phone || espace === "" || !date) {
+        alert('Veuillez remplir tous les champs obligatoires');
+        
+        // Afficher visuellement les champs manquants
+        if (!name) document.getElementById('modal-name').style.borderColor = 'red';
+        if (!email) document.getElementById('modal-email').style.borderColor = 'red';
+        if (!phone) document.getElementById('modal-phone').style.borderColor = 'red';
+        if (espace === "") document.getElementById('modal-espace').style.borderColor = 'red';
+        if (!date) document.getElementById('modal-date').style.borderColor = 'red';
+        
+        return;
+    }
+
+    // Réinitialiser les bordures
+    document.querySelectorAll('#reservation-form input, #reservation-form select').forEach(el => {
+        el.style.borderColor = '';
+    });
+
+    // Construction du message
+    const whatsappText = `👋 Nouvelle demande de réservation :
+    
+🧑 Nom : ${name}
+📧 Email : ${email}
+📞 Téléphone : ${phone}
+🏢 Espace : ${document.getElementById('modal-espace').options[document.getElementById('modal-espace').selectedIndex].text}
+📅 Date : ${date}
+📝 Message : ${message || 'Aucun message'}`;
+
+    // Encodage URL
+    const whatsappURL = `https://wa.me/212600800747?text=${encodeURIComponent(whatsappText)}`;
+    
+    closeModal();
+    window.open(whatsappURL, '_blank');
+});
+    
+    // Empêcher la soumission standard du formulaire
+    document.getElementById('reservation-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+    });
+});
+    </script>
+    <script src="mobile-menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Union des Affaires</title>
+    <meta name="description" content="Contactez Union des Affaires pour vos besoins en coworking, centre d'appel et solutions professionnelles à Casablanca">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://union-affaires.ma/contact">
+    <meta property="og:title" content="Contact | Union des Affaires">
+    <meta property="og:description" content="Contactez notre équipe pour toute demande d'information ou de réservation">
+    <meta property="og:image" content="https://union-affaires.ma/img/contact-og.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://union-affaires.ma/contact">
+    <meta property="twitter:title" content="Contact | Union des Affaires">
+    <meta property="twitter:description" content="Contactez notre équipe pour toute demande d'information ou de réservation">
+    <meta property="twitter:image" content="https://union-affaires.ma/img/contact-og.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- En-tête -->
+    <header class="header-sticky">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html">
+                    <img src="Logo princip.png" alt="Union des Affaires" class="logo-img">
+                </a>
+
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <nav class="nav-premium" id="nav-premium">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="coworking.html">Espace Co-working</a></li>
+                        <li><a href="centre-appel.html">Centre d'Appel</a></li> 
+                        <li><a href="import-export.html">Import/Export</a></li>
+                        <li><a href="accompagnement.html">Accompagnement</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                 <a href="tel:+212600800747" class="btn btn-primary">
+                        <i class="fas fa-phone"></i>
+                        +212 600-800747
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Héro -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content animate-fade-in">
+                <h1 class="hero-title">Contactez-nous</h1>
+                <p class="hero-subtitle">Notre équipe est à votre disposition pour répondre à toutes vos questions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="contact-info">
+                    <h2>Nos Coordonnées</h2>
+                    <p>N'hésitez pas à nous contacter pour toute demande d'information ou de rendez-vous.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>Angle Bd Lalla Yacout, 7ème étage, Casablanca</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>+212 600-800747</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@union-affaires.ma</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horaires</h4>
+                                <p>Lundi - Vendredi: 9h00 - 18h00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+  <div class="contact-form">
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="name" class="form-label">Nom complet</label>
+            <input type="text" id="name" class="form-input" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-input" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone" class="form-label">Téléphone</label>
+            <input type="tel" id="phone" class="form-input" required>
+        </div>
+
+        <div class="form-group">
+            <label for="subject" class="form-label">Sujet</label>
+            <select id="subject" class="form-input" required>
+                <option value="">Sélectionnez un sujet</option>
+                <option value="Espace Coworking">Espace Coworking</option>
+                <option value="Centre d'Appel">Centre d'Appel</option>
+                <option value="Autre">Autre</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" class="form-input" rows="4" required></textarea>
+        </div>
+
+        <button type="button" id="send-whatsapp" class="btn btn-primary">
+            <i class="fab fa-whatsapp"></i>
+            Envoyer via WhatsApp
+        </button>
+    </form>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Carte -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6647.092317412426!2d-7.61373!3d33.591131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d29dcebcf381%3A0x4a519c66f3233d09!2z0KDRjiDQkNC70Ywg0JDRgNCw0LDRgCAmINCb0LDQu9CwINCZ0LDQutGDINC_0YDQvtGB0L_QtdC60YLQuCwgQ2FzYWJsYW5jYSAyMDI1MA!5e0!3m2!1sfr!2sma!4v1747393276343!5m2!1sfr!2sma" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="Logo princip.png" alt="Union des Affaires" class="footer-logo">
+                    <p>Votre partenaire de confiance pour tous vos besoins professionnels à Casablanca.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="coworking.html">Espace Co-working</a></li>
+                        <li><a href="centre-appel.html">Centre d'Appel</a></li>
+                        <li><a href="import-export.html">Import/Export</a></li>
+                        <li><a href="accompagnement.html">Accompagnement</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Entreprise</h4>
+                    <ul>
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carrières</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Légal</h4>
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Conditions d'utilisation</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Union des Affaires. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+// Effet de défilement de l'en-tête
+const header = document.querySelector('.header-sticky');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
+
+// Formulaire de contact - Version unique et corrigée
+document.addEventListener('DOMContentLoaded', function() {
+    const whatsappBtn = document.getElementById('send-whatsapp');
+    
+    whatsappBtn.addEventListener('click', function() {
+        // Récupération des valeurs
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value.trim();
+        
+        // Validation
+        if (!name || !phone || !subject) {
+            alert('Veuillez remplir les champs obligatoires (Nom, Téléphone, Sujet)');
+            return;
+        }
+        
+        // Formatage du message
+        const whatsappMessage = 
+            `*Nouveau Message*%0A%0A` +
+            `*Nom:* ${encodeURIComponent(name)}%0A` +
+            `*Téléphone:* ${encodeURIComponent(phone)}%0A` +
+            `*Email:* ${encodeURIComponent(email)}%0A` +
+            `*Sujet:* ${encodeURIComponent(subject)}%0A%0A` +
+            `*Message:*%0A${encodeURIComponent(message)}`;
+        
+        // Numéro au format international (avec +)
+        const whatsappNumber = "+212600800747";
+        
+        // Création du lien
+        const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+        
+        // Ouverture
+        try {
+            window.location.href = whatsappUrl; // Ouvre dans le même onglet
+            // Alternative: window.open(whatsappUrl, '_blank');
+        } catch (e) {
+            console.error("Erreur d'ouverture WhatsApp:", e);
+            alert("Impossible d'ouvrir WhatsApp. Veuillez réessayer.");
+        }
+    });
+});
+    </script>
+    <script src="mobile-menu.js"></script>
+</body>
+</html>
