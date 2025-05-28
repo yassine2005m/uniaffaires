@@ -25,7 +25,34 @@
 </head>
 <body>
     <!-- En-tête -->
-<header class="header-sticky scrolled" style="margin: 0px; padding: 0.5rem 0px; position: sticky; top: 0px; left: 0px; right: 0px; background-color: rgba(255, 255, 255, 0.95); box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px; z-index: 1000; transition: 0.3s; backdrop-filter: blur(10px); color: rgb(30, 41, 59); font-family: Inter, sans-serif; font-size: medium; font-weight: 400; white-space-collapse: collapse;"><div class="container" style="margin-top: 0px; margin-bottom: 0px; padding: 0px 1.5rem; max-width: 1200px;"><div class="header-content" style="margin: 0px; padding: 1rem 0px; display: flex; justify-content: space-between; align-items: center;"><a href="https://aminavoyage.com/uniondesaffaires/" class="logo-link" style="margin: 0px; padding: 0px; display: block; transition-property: all;"><img src="https://yassine2005m.github.io/uniaffaires/Logo%20princip.jpg" alt="Union des Affaires" class="logo-img" style="margin: 0px; padding: 0px; height: 45px; width: auto;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a><a href="https://aminavoyage.com/uniondesaffaires/" class="active" style="letter-spacing: 0px; margin: 0px; padding: 0.5rem 1rem; color: rgb(37, 99, 235); transition-property: all; border-radius: 12px; background-color: rgba(37, 99, 235, 0.1);">Accueil</a>&nbsp; &nbsp; &nbsp; &nbsp;<a href="https://yassine2005m.github.io/uniaffaires/coworking.html" style="background-color: rgba(255, 255, 255, 0.95); letter-spacing: 0px; margin: 0px; padding: 0.5rem 1rem; color: rgb(30, 41, 59); transition-property: all; border-radius: 12px;">Espace Co-working</a>&nbsp; &nbsp; &nbsp;&nbsp;<a href="https://yassine2005m.github.io/uniaffaires/centre-appel.html" style="letter-spacing: 0px; background-color: rgba(255, 255, 255, 0.95); margin: 0px; padding: 0.5rem 1rem; color: rgb(30, 41, 59); transition-property: all; border-radius: 12px; display: inline !important;">Centre d'Appel</a>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="https://yassine2005m.github.io/uniaffaires/import-export.html" style="background-color: rgba(255, 255, 255, 0.95); letter-spacing: 0px; margin: 0px; padding: 0.5rem 1rem; color: rgb(30, 41, 59); transition-property: all; border-radius: 12px;">Import/Export</a>&nbsp; &nbsp; &nbsp;<a href="https://yassine2005m.github.io/uniaffaires/contact.html" style="background-color: rgba(255, 255, 255, 0.95); letter-spacing: 0px; margin: 0px; padding: 0.5rem 1rem; color: rgb(30, 41, 59); transition-property: all; border-radius: 12px;">Contact</a></div></div></header>
+    <header class="header-sticky">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html">
+                    <img src="Logo princip.jpg" alt="Union des Affaires" class="logo-img">
+                </a>
+
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <nav class="nav-premium" id="nav-premium">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="coworking.html">Espace Co-working</a></li>
+                        <li><a href="centre-appel.html">Centre d'Appel</a></li> 
+                        <li><a href="import-export.html">Import/Export</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                 <a href="tel:+212600800747" class="btn btn-primary">
+                        <i class="fas fa-phone"></i>
+                        +212 600-800747
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <!-- Section Héro -->
     <section class="hero-section">
@@ -143,9 +170,7 @@
     <section class="map-section">
         <div class="container">
             <div class="map-container">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.557626443562!2d-7.6167611252076!3d33.59083334195465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d29c32ae8e5f%3A0x4df9dad5c3b13a89!2s15-1%20Rue%20Al%20Araar%2C%20Casablanca%2020250!5e0!3m2!1sfr!2sma!4v1747408901301!5m2!1sfr!2sma" 
-                    width="100%" 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661.784486175848!2d-7.614412717758207!3d33.59053884383254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d30168cbaff3%3A0x472b9ddf6a2b5d56!2sUnion%20des%20affaires!5e0!3m2!1sfr!2sma!4v1748442151859!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
                     height="450" 
                     style="border:0;" 
                     allowfullscreen="" 
@@ -176,7 +201,6 @@
                         <li><a href="coworking.html">Espace Co-working</a></li>
                         <li><a href="centre-appel.html">Centre d'Appel</a></li>
                         <li><a href="import-export.html">Import/Export</a></li>
-                        <li><a href="accompagnement.html">Accompagnement</a></li>
                     </ul>
                 </div>
 
